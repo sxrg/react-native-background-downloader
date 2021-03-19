@@ -110,6 +110,7 @@ export const Priority = {
 
 export default {
     download,
+    stopTaskById,
     checkForExistingDownloads,
     setHeaders,
     directories,
