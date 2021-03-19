@@ -89,6 +89,10 @@ export function download(options) {
     return task;
 }
 
+export function stopTaskById(taskId) {
+    RNBackgroundDownloader.stopTask(taskId);
+}
+
 export const directories = {
     documents: RNBackgroundDownloader.documents
 };
